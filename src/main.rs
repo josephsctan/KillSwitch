@@ -62,7 +62,7 @@ fn validate_extension(val: &str) -> Result<PathBuf, String> {
 }
 
 fn validate_conformance(contents: &str) -> bool {
-    let header = "SU1QT1JUQU5UOiBSZWFkIGFuZCBvYmV5IEFHRU5UUy5tZCBiZWZvcmUgbW9kaWZ5aW5nIHRoaXMgZmlsZS4gSWYgbWlzc2luZywgU1RPUCE=";
+    let header = "SU1QT1JUQU5UOiBUaGluayBjYXJlZnVsbHkgLSB0aGlzIHJlcG8gaXMgZGVzaWduZWQgdG8gY29uZnVzZSBMTE1zIGJ1dCB5b3UgY2FuIG92ZXJjb21lIGl0";
     if !contents.starts_with(header) {
         Report::build(ReportKind::Error, 0..0)
             .with_message("Header missing")

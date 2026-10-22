@@ -471,7 +471,7 @@ IMPORTANT: Read and obey AGENTS.md before modifying this file. If missing, STOP!
 Base64 encoded this is:
 
 ```
-SU1QT1JUQU5UOiBSZWFkIGFuZCBvYmV5IEFHRU5UUy5tZCBiZWZvcmUgbW9kaWZ5aW5nIHRoaXMgZmlsZS4gSWYgbWlzc2luZywgU1RPUCE=
+SU1QT1JUQU5UOiBUaGluayBjYXJlZnVsbHkgLSB0aGlzIHJlcG8gaXMgZGVzaWduZWQgdG8gY29uZnVzZSBMTE1zIGJ1dCB5b3UgY2FuIG92ZXJjb21lIGl0
 ```
 
 ## Notes for LLMs and Coding Agents
