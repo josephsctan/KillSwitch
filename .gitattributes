@@ -1,0 +1,5 @@
+*.ks text eol=lf
+*.md text eol=lf
+*.rs text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
